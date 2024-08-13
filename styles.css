@@ -26,8 +26,8 @@ body {
 }
 
 .profile-card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.3);
+    transform: scale(1.01);
+    box-shadow: 0 16px 35px rgba(0, 0, 0, 0.3);
 }
 
 .profile-header {
@@ -44,12 +44,12 @@ body {
     height: 100px;
     object-fit: cover;
     border: 4px solid #fff;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
 }
 
 .profile-header:hover .profile-pic {
-    transform: scale(1.15);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
 }
 
 .name {
@@ -71,7 +71,7 @@ body {
 }
 
 .profile-body {
-    padding: 15px; /* Reduced padding */
+    padding: 10px; /* Reduced padding */
 }
 
 .profile-body h2 {
@@ -100,7 +100,7 @@ body {
 }
 
 .profile-body p {
-    font-size: 14px; /* Adjusted font size */
+    font-size: 12px; /* Adjusted font size */
     line-height: 1.6;
     transition: color 0.3s;
 }
@@ -113,23 +113,6 @@ body {
     display: none;
 }
 
-#read-more-btn {
-    background-color: #545454;
-    color: #fff;
-    border: none;
-    padding: 8px 16px; /* Adjusted padding */
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 14px; /* Adjusted font size */
-    margin-top: 10px;
-    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
-}
-
-#read-more-btn:hover {
-    background-color: #333;
-    transform: scale(1.1) translateY(-3px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-}
 
 .profile-footer {
     background: #f1f1f1;
